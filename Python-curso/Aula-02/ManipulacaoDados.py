@@ -1,53 +1,5 @@
-
-
-
-# 4. Dicionários:
-
-# Dicionário chave-valor
-pessoa = {
-    "nome": "Carlos",
-    "idade": 30,
-    "profissao": "engenheiro"
-}
-
-# Acessando valores
-# print(pessoa["nome"])
-# print(pessoa.get("idade"))
-# print(pessoa.get("profissao"))
-
-# Adicionando novo par chave-valor
-pessoa["cidade"] = "São Paulo"
-
-# 5. Booleans:
-
-
-# Variáveis booleanas
-tem_cafe = True
-tem_cha = False
-
-# Expressões booleanas
-tem_bebida_quente = tem_cafe or tem_cha
-tem_os_dois = tem_cafe and tem_cha
-
-# Operações Matemáticas:
-# Números
-a = 10
-b = 3
-
-# Soma
-soma = a + b
-
-# Subtração
-subtracao = a - b
-
-# Multiplicação
-multiplicacao = a * b
-
-# Divisão
-divisao = a / b
-
-# Resultados
-print(soma, subtracao, multiplicacao, divisao)
+# MAnipulação de String
+# 1. Slicing: O slicing permite extrair partes específicas de uma string.
 
 frase = "Python é uma linguagem poderosa"
 
@@ -57,10 +9,10 @@ primeiras_letras = frase[:6]
 # Extrair as últimas 9 letras
 ultimas_letras = frase[-9:]
 
-# Extrair cada segunda letra
-cada_segunda_letra = frase[::2]
+# Extrair cada duas letra
+cada_duas_letra = frase[::2]
 
-print(primeiras_letras, ultimas_letras, cada_segunda_letra)
+print(primeiras_letras, ultimas_letras, cada_duas_letra)
 
 # 2. Formatação Avançada:
 
@@ -130,20 +82,4 @@ print(nome_completo)
 print(frase_completa)
 
 
-
-idade = 18
-if idade >= 18:
-    pode_votar = True
-else:
-    pode_votar = False
-
-print(pode_votar) 
-
-# Tipagem 
-
-numero = "42 "
-texto = "Python"
-resultado = numero+texto 
-
-print(resultado)
 
