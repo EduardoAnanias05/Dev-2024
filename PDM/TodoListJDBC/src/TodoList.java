@@ -143,7 +143,7 @@ public class TodoList extends JFrame {
 
     // teste botoes dando funcionalidade
 
-    private void addTask() {
+    private void addTask() { //create 
         // Adiciona uma nova task à lista de tasks
         String taskDescription = taskInputField.getText().trim();// remove espaços vazios
         if (!taskDescription.isEmpty()) {
@@ -154,7 +154,7 @@ public class TodoList extends JFrame {
         }
     }
 
-    private void deleteTask() {
+    private void deleteTask() { //delete 
         // Exclui a task selecionada da lista de tasks
         int selectedIndex = taskList.getSelectedIndex();
         if (selectedIndex >= 0 && selectedIndex < tasks.size()) {
@@ -163,7 +163,7 @@ public class TodoList extends JFrame {
         }
     }
 
-    private void detalhesTask() {
+    private void detalhesTask() { 
         int selectedIndex = taskList.getSelectedIndex();
         if (selectedIndex >= 0 && selectedIndex < tasks.size()) {
             Task selectedTask = tasks.get(selectedIndex);
@@ -239,7 +239,7 @@ public class TodoList extends JFrame {
         updateTaskList();
     }
 
-    private void updateTaskList() {
+    private void updateTaskList() { // update
         // Atualiza a lista de tasks exibida na GUI
         listModel.clear();
         for (Task task : tasks) {
