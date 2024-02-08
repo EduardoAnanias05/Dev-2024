@@ -25,8 +25,8 @@ public Task(String taskDescription2) {
 }
 
 
-public Task(String string, String string2, String string3, String string4) {
-    //TODO Auto-generated constructor stub
+public Task(String string, String string2, String string3, String string4) { 
+    
 }
 
 
@@ -51,7 +51,7 @@ public void setDone(boolean done) {
 }
 
 public String getDetails() {
-    return null;
+    return details;
 }
 
 public void setDetails(String newDetails) {
@@ -69,8 +69,7 @@ public void setTaskDescription(String taskDescription) {
 
 
 public void add(Task task) {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'add'");
+    
 }     
 
 

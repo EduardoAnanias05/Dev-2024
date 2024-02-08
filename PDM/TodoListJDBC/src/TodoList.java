@@ -150,7 +150,7 @@ public class TodoList extends JFrame {
             Task newTask = new Task(taskDescription);
             tasks.add(newTask);
             updateTaskList();
-            taskInputField.setText("");
+            taskInputField.setText(" ");
         }
     }
 
